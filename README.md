@@ -1,5 +1,5 @@
 # ai_generated_code_extractor
-AI generated code extractor
+AI generated code extractor, LLM generated code extractor, AI generated content extractor, LLM generated content extractor
 
 Many times LLM appends multiple files into a single one, (with appended comment saying this is a new file) like:
 <img width="1530" alt="image" src="https://github.com/user-attachments/assets/83d94103-b773-4ab2-b2e9-aa5454e34b0c">
