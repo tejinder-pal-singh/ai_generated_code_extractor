@@ -1,0 +1,16 @@
+// Input file: input.txt
+// src/components/Button.tsx
+export const Button = () => {
+  //comment
+  return <button>Click me</button>;
+}
+
+// src/utils/format.ts
+export function format(str: string) {
+  return str.trim();
+}
+
+// src/types/button.ts
+export interface ButtonProps {
+  onClick: () => void;
+}

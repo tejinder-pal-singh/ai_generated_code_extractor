@@ -1,0 +1,10 @@
+{
+  "watch": ["src", "input.txt"],
+  "ext": ".ts,.js,.txt",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node code-extractor.ts -i input.txt -o ./output",
+  "events": {
+    "restart": "clear"
+  },
+  "delay": "1000"
+}
